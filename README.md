@@ -1,4 +1,4 @@
-# OmniScale Networks
+# Omni-Scale Networks
 
 An implementation of the paper [Omni-Scale Feature Learning for Person Re-Identification](https://arxiv.org/pdf/1905.00953.pdf). The network architecture has been modified slightly, with the use-case of fine-grained classification in mind. You can find the author's official implementation [here](https://github.com/KaiyangZhou/deep-person-reid/blob/master/torchreid/models/osnet.py).
 
