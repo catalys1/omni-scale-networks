@@ -14,3 +14,7 @@ This implementation has a few deliberate differences from the original:
 - The first 7x7 convolution layer is replaced by three 3x3 convolution layers
 - An extra average pooling layer and 1x1 convolution are added before the global pooling layer. This is get one more downsampling step in before global pooling, as this model is intended for more general image classification (as opposed to person re-id)
 - The 512 to 512 linear layer is left out, and a single linear classification layer is used in its place
+
+## Experiments
+
+The experiments are performed and annotated in the notebook `osnet-experiments.ipynb`. OSNet is compared to resnet18, training from scratch on Tiny Imagenet and CUB-200-2011. OSNet significantly outperforms resnet18, despite having roughly one-fifth the number of parameters.
